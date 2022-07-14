@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: on
+  flyway:
+    enabled: off
+
+event:
+  price:
+    tier_1: 3000.0
+    tier_2: 5500.0
+    tier_3: 7500.0
+    tier_4: 9500.0
+    tier_5: 13000.0
